@@ -1,8 +1,14 @@
+import React from "react";
+import Header from "./components/header/header";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>
-      Marica Nicholas - LPC
+    <div className="flex flex-col">
+      <div>
+        <Header />
+      </div>
     </div>
   );
-}
+};
+
+export default Home;
