@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const Header = () => {
   const h1Style =
-    "md:text-2xl xl:text-4xl ml-2 bg-gray-200 text-gray-900 p-2 rounded";
+    "md:text-2xl xl:text-4xl ml-2 bg-gray-300 text-gray-900 p-2 rounded";
   const h2Style =
-    "md:text-2xl xl:text-4xl mr-2 bg-gray-200 text-gray-900 p-2 rounded";
+    "md:text-2xl xl:text-4xl mr-2 bg-gray-300 text-gray-900 p-2 rounded";
 
   return (
-    <div className="bg-gray-600 flex flex-col md:flex-row">
+    <div className="bg-gray-900 text-bg-800 flex flex-col md:flex-row m-2">
       <div className="flex flex-col items-center md:w-5/12 md:justify-center md:items-end">
         <h2 className={h2Style}>Counceling Services</h2>
       </div>
