@@ -14,30 +14,32 @@ const Home = () => {
       </div>
 
       <div className="flex m-2">
+        <div className="flex flex-col w-6/12">
 
-        <div className="w-6/12">
-        <div>
-          <Specialities />
+          <div className="h-1/4 bg-gray-100 m-2">
+            <Specialities />
+          </div>
+
+          <div className="h-1/4 bg-gray-100 m-2">
+            <Certifications />
+          </div>
+
+          <div className="h-1/4 bg-gray-100 m-2">
+            <Insurance />
+          </div>
+
+          <div className="h-1/4 bg-gray-100 m-2">
+            <Contact />
+          </div>
+
         </div>
-        <div>
-        <Certifications />
-      </div>
-      <div>
-        <Insurance />
-      </div>
-      <div>
-        <Contact />
-      </div>
-        </div>
 
-
-
-        <div className="w-6/12 m-2">
-          <Biography />
+        <div className="flex flex-col w-6/12 bg-gray-100 m-2">
+          <div>
+            <Biography />
+          </div>
         </div>
       </div>
-
-
     </div>
   );
 };
