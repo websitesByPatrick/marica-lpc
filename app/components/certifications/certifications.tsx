@@ -11,9 +11,7 @@ const Certifications = () => {
       <div>
         <ul>
           <li>
-            <span>
-              LPC-A
-            </span>{" "}
+
             Licenced Professional Counselor - Associate
           </li>
           <li>Texas License Number: 95215</li>

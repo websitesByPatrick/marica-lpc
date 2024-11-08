@@ -5,6 +5,7 @@ import Certifications from "./components/certifications/certifications";
 import Biography from "./components/biography/biography";
 import Insurance from "./components/Insurance/insurance";
 import Contact from "./components/Contact/contact";
+import Footer from "./components/footer/footer"
 
 const Home = () => {
   return (
@@ -39,6 +40,9 @@ const Home = () => {
             <Biography />
           </div>
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

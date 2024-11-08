@@ -2,34 +2,33 @@ import React from "react";
 import Image from "next/image";
 
 const Header = () => {
-  const h1Style =
-    "md:text-2xl xl:text-4xl ml-2 bg-gray-300 text-gray-900 p-2 rounded";
-  const h2Style =
-    "md:text-2xl xl:text-4xl mr-2 bg-gray-300 text-gray-900 p-2 rounded";
-
   return (
-    <div className="bg-slate-600 text-bg-800 flex flex-col md:flex-row m-2">
-      <div className="flex flex-col items-center md:w-5/12 md:justify-center md:items-end">
-        <h2 className={h2Style}>Counceling Services</h2>
-      </div>
-
-      <div className="flex justify-center md:justify-center md:w-2/12">
+    <div className="bg-slate-600 flex p-5 m-4">
+      <div className="flex flex-col w-3/12 items-center content-center">
         <Image
           alt="Photo of Marica Nicholas"
           src="/marica.jpg"
-          width={200}
-          height={200}
+          width={300}
+          height={300}
           className="rounded-full aspect-square object-cover my-2"
         />
       </div>
 
-      <div className="flex flex-col items-center md:w-5/12 md:justify-center md:items-start">
+      <div className="flex flex-col w-6/12 justify-center">
         <div>
-          <h1 className={h1Style}>Marica Nicholas, LPC-A</h1>
-          <p className="text-xxl text-center">
-            Supervised by: Ana Valenzuela, LPC-S
+          <h2 className="text-3xl p-1">Counseling Services</h2>
+          <h1 className="text-4xl p-1">Marica Nicholas, LPC-Associate</h1>
+          <p className="text-2xl p-1">
+            Supervised by: Ana Valenzuela, LPC-Supervisor
+          </p>
+          <p className="text-l p-1">
+            Office in Tomball, Texas
           </p>
         </div>
+      </div>
+
+      <div className="w-3/12">
+        <Image src="/header.jpg" width="300" height="300" alt="Mental Health"/>
       </div>
     </div>
   );
