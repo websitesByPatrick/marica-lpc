@@ -21,8 +21,8 @@ const Header = () => {
           <p className="text-2xl p-1">
             Supervised by: Ana Valenzuela, LPC-Supervisor
           </p>
-          <p className="text-l p-1">
-            Office in Tomball, Texas
+          <p className="text-xl p-1">
+            Located in Tomball, Texas
           </p>
         </div>
       </div>

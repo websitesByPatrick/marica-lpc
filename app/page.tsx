@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./components/header/header";
-import Specialities from "./components/specialities/specialities";
-import Certifications from "./components/certifications/certifications";
-import Biography from "./components/biography/biography";
-import Insurance from "./components/Insurance/insurance";
-import Contact from "./components/Contact/contact";
-import Footer from "./components/footer/footer"
+import Header from "./components/header";
+import Specialities from "./components/specialities";
+import Certifications from "./components/certifications";
+import Biography from "./components/biography";
+import Insurance from "./components/insurance";
+import Contact from "./components/contact";
+import Footer from "./components/footer"
 
 const Home = () => {
   return (

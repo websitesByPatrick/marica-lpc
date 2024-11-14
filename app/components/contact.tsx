@@ -30,7 +30,7 @@ const Contact = () => {
               src="/phone.png"
             ></Image>
             <span>
-            281-769-2238
+            281-769-2238 Ext. 640
             </span>
             
           </li>
