@@ -14,8 +14,8 @@ const Home = () => {
         <Header />
       </div>
 
-      <div className="flex m-2">
-        <div className="flex flex-col w-6/12">
+      <div className="">
+        <div className="flex flex-col">
 
           <div className="h-1/4 bg-gray-100 m-2">
             <Specialities />

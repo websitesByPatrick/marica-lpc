@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="bg-slate-600 flex flex-col items-center">
+    <div className="flex flex-col items-center">
       <div className="flex flex-row content-center">
         <Image
           alt="Photo of Marica Nicholas"
