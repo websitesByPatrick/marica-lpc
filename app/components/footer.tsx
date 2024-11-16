@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="bg-slate-600 p-5">
    
 
-          <p className="text-2xl text-center">Copyright © {year}. Websites By Pops. All rights reserved.</p>
+          <p className="text-xl text-center">Copyright © {year}. Websites By Pops. All rights reserved.</p>
 
      
     </div>

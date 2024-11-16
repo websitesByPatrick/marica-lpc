@@ -5,45 +5,24 @@ import Certifications from "./components/certifications";
 import Biography from "./components/biography";
 import Insurance from "./components/insurance";
 import Contact from "./components/contact";
-import Footer from "./components/footer"
+import Footer from "./components/footer";
 
 const Home = () => {
   return (
     <div className="flex flex-col">
-      <div>
-        <Header />
-      </div>
+      <Header />
 
-      <div className="">
-        <div className="flex flex-col">
+      <Specialities />
 
-          <div className="h-1/4 bg-gray-100 m-2">
-            <Specialities />
-          </div>
+      <Certifications />
 
-          <div className="h-1/4 bg-gray-100 m-2">
-            <Certifications />
-          </div>
+      <Insurance />
 
-          <div className="h-1/4 bg-gray-100 m-2">
-            <Insurance />
-          </div>
+      <Contact />
 
-          <div className="h-1/4 bg-gray-100 m-2">
-            <Contact />
-          </div>
+      <Biography />
 
-        </div>
-
-        <div className="flex flex-col w-6/12 bg-gray-100 m-2">
-          <div>
-            <Biography />
-          </div>
-        </div>
-      </div>
-      <div>
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 };

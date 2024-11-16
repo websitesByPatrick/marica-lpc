@@ -28,8 +28,8 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="flex my-4">
-        <Image src="/header.jpg" width="300" height="300" alt="Mental Health" />
+      <div className="flex my-4 mx-3 w-6/6">
+        <Image src="/header.jpg" width="500" height="500" alt="Mental Health" />
       </div>
     </div>
   );
