@@ -3,45 +3,49 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div className="section flex flex-col items-center p-3 m-3">
-      <div className="flex self-start mb-4">
-      <h2 className="text-3xl">Contacts</h2>
+    <div className="section">
+      <div className="section-title">
+        <section>Contacts</section>
       </div>
 
-      <div>
-        <ul className="text-xl">
+      <div className="section-single-list section-list-none">
+        <ul>
           <li className="mb-2">
-          <Image className="inline mr-2"
+            <Image
               alt="facebook"
-              width="20"
-              height="20"
+              width="40"
+              height="40"
               src="/email.png"
             ></Image>
-            <span>
-            marica@clearhopewellness.com
-            </span>
-            
           </li>
+          <li className="mb-8">marica@clearhopewellness.com</li>
+
           <li className="mb-2">
-          <Image className="inline mr-2"
+            <Image
+              className="inline mr-2"
               alt="facebook"
-              width="20"
-              height="20"
+              width="40"
+              height="40"
               src="/phone.png"
             ></Image>
-            <span>
-            281-769-2238 Ext. 640
-            </span>
-            
           </li>
+          <li className="mb-8">281-769-2238 Ext. 640</li>
           <li>
-            <Image className="inline mr-2"
+            <Image
+              className="inline mr-2"
               alt="facebook"
-              width="20"
-              height="20"
+              width="40"
+              height="40"
               src="/facebook.png"
             ></Image>
-            <span><a href="https://www.facebook.com/profile.php?id=61566270420816" target="_blank">Follow on Facebook</a></span>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=61566270420816"
+              target="_blank"
+            >
+              Follow on Facebook
+            </a>
           </li>
         </ul>
       </div>

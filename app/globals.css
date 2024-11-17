@@ -4,16 +4,55 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  @apply text-cyan-950;
+  @apply bg-cyan-950;
 }
 
+
+.header {
+  color: #fff8e3;
+  @apply flex;
+  
+}
 .section {
-  @apply bg-gray-100;
+  background-color: #FFF8E3;
+ @apply flex;
+  @apply lg:m-3;
+  @apply lg:h-96;
+  @apply flex-col;
 }
 .section-title {
-  @apply text-gray-800;
+  @apply text-center;
   @apply text-3xl;
   @apply p-4;
 }
 .section-body {
   @apply lg:p-3;
+  @apply text-lg;
+  @apply text-cyan-950;
+}
+
+.section-list {
+  @apply flex;
+  @apply flex-col;
+  @apply lg:flex-row;
+ 
+}
+.section-list ul {
+  @apply list-disc;
+  @apply content-evenly;
+  
+}
+
+.section-double-list ul {
+  @apply flex-row;
+}
+.section-list-none ul {
+  @apply list-none;
+}
+.body-bg {
+  @apply bg-cyan-950
+}
+.heading-bg {
+  @apply bg-cyan-950
 }

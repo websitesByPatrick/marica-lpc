@@ -6,32 +6,57 @@ import Biography from "./components/biography";
 import Insurance from "./components/insurance";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import Bio2 from "./components/bio-2";
+import Bio3 from "./components/bio-3";
+import Bio4 from "./components/bio-4";
 
 const Home = () => {
   return (
-    <div className="flex flex-col">
-      <Header />
-      <div className="lg:flex">
-        <div className="lg:w-6/12 m-3">
-          <div className="lg:h-1/4">
+    <div className="flex flex-col m-6">
+      <div className="m-4">
+        <Header />
+      </div>
+
+      <div className="flex lg:flex-row lg:justify-center">
+        <div className="flex flex-col lg:w-1/4">
+
+          <div className="section lg:flex-row">
             <Specialities />
           </div>
-          <div className="lg:h-1/4 m-3">
+
+          <div className="section">
             <Certifications />
           </div>
-          <div className="lg:h-1/4 m-3">
+
+          <div>
             <Insurance />
           </div>
-          <div className="lg:h-1/4 m-3">
+
+          <div>
             <Contact />
           </div>
         </div>
-        <div className="lg:w-6/12 m-3">
-          <Biography />
+
+        <div className="flex flex-col lg:w-2/4">
+          <div className="section">
+            <Biography />
+          </div>
+
+          <div className="section">
+            <Bio2/>
+          </div>
+          <div>
+            <Bio3 />
+          </div>
+          <div>
+            <Bio4 />
+          </div>
         </div>
       </div>
 
-      <Footer />
+      <div className="flex lg-w-12/12">
+        <Footer />
+      </div>
     </div>
   );
 };

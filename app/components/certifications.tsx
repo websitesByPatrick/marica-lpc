@@ -7,8 +7,8 @@ const Certifications = () => {
         <section>Certifications</section>
       </div>
 
-      <div>
-        <ul className="list-disc text-xl">
+      <div className="section-single-list">
+        <ul>
           <li>Licenced Professional</li>
           <li className="ml-2 mb-2 list-none">Counselor - Associate</li>
           <li>Texas License</li>

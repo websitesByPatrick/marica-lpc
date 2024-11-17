@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="flex flex-col items-center lg:flex-row text-gray-100">
+    <div className="header">
 
 
       <div className="flex flex-row content-center lg:w-4/12 lg:justify-end ">
@@ -16,9 +16,9 @@ const Header = () => {
         />
       </div>
 
-      <div className="flex flex-col content-center lg:w-4/12">
+      <div className="flex flex-col content-center lg:w-4/12 m-4">
         <div>
-          <h2 className="text-2xl p-1 text-center">Counseling Services</h2>
+          <h2 className="text-2xl p-1 text-center">Nicholas Counseling</h2>
           <h1 className="text-2xl p- text-center">Marica Nicholas, LPC-Associate</h1>
           <p className="text-xl p-1 mt-4 text-center">
             Supervised by: 
@@ -31,7 +31,7 @@ const Header = () => {
       </div>
 
       <div className="flex my-4 mx-3 w-6/6 lg:w-4/12 lg:justify-start">
-        <Image src="/header.jpg" width="300" height="300" alt="Mental Health" />
+        <Image src="/mental health.jpg" width="300" height="300" alt="Mental Health" />
       </div>
 
      
