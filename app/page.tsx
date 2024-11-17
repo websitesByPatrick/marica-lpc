@@ -11,16 +11,25 @@ const Home = () => {
   return (
     <div className="flex flex-col">
       <Header />
-
-      <Specialities />
-
-      <Certifications />
-
-      <Insurance />
-
-      <Contact />
-
-      <Biography />
+      <div className="lg:flex">
+        <div className="lg:w-6/12 m-3">
+          <div className="lg:h-1/4">
+            <Specialities />
+          </div>
+          <div className="lg:h-1/4 m-3">
+            <Certifications />
+          </div>
+          <div className="lg:h-1/4 m-3">
+            <Insurance />
+          </div>
+          <div className="lg:h-1/4 m-3">
+            <Contact />
+          </div>
+        </div>
+        <div className="lg:w-6/12 m-3">
+          <Biography />
+        </div>
+      </div>
 
       <Footer />
     </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div className="text-gray-800 bg-gray-200 flex flex-col items-center p-3 m-3">
+    <div className="section flex flex-col items-center p-3 m-3">
       <div className="flex self-start mb-4">
       <h2 className="text-3xl">Contacts</h2>
       </div>

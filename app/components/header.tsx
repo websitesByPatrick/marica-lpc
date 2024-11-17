@@ -3,8 +3,10 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="flex flex-col items-center">
-      <div className="flex flex-row content-center">
+    <div className="flex flex-col items-center lg:flex-row text-gray-100">
+
+
+      <div className="flex flex-row content-center lg:w-4/12 lg:justify-end ">
         <Image
           alt="Photo of Marica Nicholas"
           src="/marica.jpg"
@@ -14,10 +16,10 @@ const Header = () => {
         />
       </div>
 
-      <div className="flex flex-col content-center">
+      <div className="flex flex-col content-center lg:w-4/12">
         <div>
           <h2 className="text-2xl p-1 text-center">Counseling Services</h2>
-          <h1 className="text-2xl p-1 text-center">Marica Nicholas, LPC-Associate</h1>
+          <h1 className="text-2xl p- text-center">Marica Nicholas, LPC-Associate</h1>
           <p className="text-xl p-1 mt-4 text-center">
             Supervised by: 
           </p>
@@ -28,9 +30,11 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="flex my-4 mx-3 w-6/6">
-        <Image src="/header.jpg" width="500" height="500" alt="Mental Health" />
+      <div className="flex my-4 mx-3 w-6/6 lg:w-4/12 lg:justify-start">
+        <Image src="/header.jpg" width="300" height="300" alt="Mental Health" />
       </div>
+
+     
     </div>
   );
 };

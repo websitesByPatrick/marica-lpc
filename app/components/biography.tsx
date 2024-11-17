@@ -2,7 +2,7 @@ import React from "react";
 
 const Biography = () => {
   return (
-    <div className="text-gray-800 bg-gray-200 flex flex-col items-center p-3 m-3">
+    <div className="flex flex-col items-center p-3 section">
       <div className="flex self-start mb-4">
         <h2 className="text-3xl">Biography</h2>
       </div>
