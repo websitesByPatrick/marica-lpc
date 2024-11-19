@@ -9,27 +9,22 @@ body {
 }
 
 
-.header {
-  color: #fff8e3;
-  @apply flex;
-  
-}
 .section {
   background-color: #FFF8E3;
- @apply flex;
-  @apply lg:m-3;
-  @apply lg:h-96;
-  @apply flex-col;
+  @apply lg:m-6;
+  @apply lg:w-[30rem]; 
+  @apply lg:h-[22rem];
 }
 .section-title {
   @apply text-center;
   @apply text-3xl;
-  @apply p-4;
+  @apply pt-3;
 }
 .section-body {
-  @apply lg:p-3;
+  @apply lg:p-5;
   @apply text-lg;
   @apply text-cyan-950;
+  @apply text-justify;
 }
 
 .section-list {
@@ -55,4 +50,9 @@ body {
 }
 .heading-bg {
   @apply bg-cyan-950
+}
+.footer {
+  background-color: #FFF8E3;
+  @apply lg:w-[63rem]; 
+  @apply lg:h-[4rem];
 }

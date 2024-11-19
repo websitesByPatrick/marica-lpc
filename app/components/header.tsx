@@ -1,40 +1,16 @@
 import React from "react";
-import Image from "next/image";
+import Header1 from "./header1";
+import Header2 from "./header2";
+import Header3 from "./header3";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="flex flex-col lg:flex-row items-center">
+      <Header1 />
+      <Header2 />
+      <Header3 />
 
 
-      <div className="flex flex-row content-center lg:w-4/12 lg:justify-end ">
-        <Image
-          alt="Photo of Marica Nicholas"
-          src="/marica.jpg"
-          width={300}
-          height={300}
-          className="rounded-full aspect-square object-cover my-2"
-        />
-      </div>
-
-      <div className="flex flex-col content-center lg:w-4/12 m-4">
-        <div>
-          <h2 className="text-2xl p-1 text-center">Nicholas Counseling</h2>
-          <h1 className="text-2xl p- text-center">Marica Nicholas, LPC-Associate</h1>
-          <p className="text-xl p-1 mt-4 text-center">
-            Supervised by: 
-          </p>
-          <p className="text-xl p-1 text-center">
-            Ana Valenzuela, LPC-Supervisor
-          </p>
-          <p className="text-xl p-1 mt-4 text-center">Located in Tomball, Texas</p>
-        </div>
-      </div>
-
-      <div className="flex my-4 mx-3 w-6/6 lg:w-4/12 lg:justify-start">
-        <Image src="/mental health.jpg" width="300" height="300" alt="Mental Health" />
-      </div>
-
-     
     </div>
   );
 };
